@@ -3,10 +3,29 @@
 }
 
 .timezone-map polygon {
-    fill: #bbb;
+    fill: rgb(189, 183, 175);
 }
 
 .timezone-map polygon:hover {
     fill: #5a5a5a;
     cursor: pointer;
+}
+
+* {
+  scrollbar-color: #454a4d #202324;
+}
+
+body {
+  color: rgb(209, 205, 199);
+  background-color: rgb(24, 26, 27);
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: rgb(35, 38, 39);
+}
+
+.form-control {
+  color: rgb(181, 175, 166);
+  background-color: rgb(24, 26, 27);
+  border-color: rgb(19, 208, 58);
 }
